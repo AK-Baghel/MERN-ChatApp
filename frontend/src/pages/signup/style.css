@@ -1,0 +1,29 @@
+.signupImageSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupImage {
+    cursor: pointer;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.signInputImage {
+    display: none;
+}
+
+.imgTitle {
+    cursor: pointer;
+    font-size: 0.6rem;
+    color: gray;
+    font-style: italic;
+
+}
+
+.imgUploadIcon {
+    font-size: 1.3rem;
+}

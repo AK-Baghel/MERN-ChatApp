@@ -1,0 +1,69 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 7px;
+    gap: 0.8rem;
+    justify-content: center;
+}
+
+.loginInput {
+    padding: 7px 4px;
+    outline: none;
+    border: 1px solid rgb(166, 190, 190);
+    font-size: 0.8rem;
+    border-radius: 7px;
+}
+
+.loginInput:focus {
+    border: 1px solid #00AEFF;
+}
+
+.loginPasswordShow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPasswordIcons {
+    position: absolute;
+    top: 52%;
+    right: 2%;
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.loginPasswordIcon1 {
+    color: black;
+}
+
+.loginPasswordIconsToggle {
+    display: none;
+}
+
+.loginButton {
+    background-color: rgb(43, 179, 43);
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: rgb(46, 197, 46);
+
+}
+
+.loginLabel {
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+}
+
+.loginAestrick {
+    color: red;
+}
